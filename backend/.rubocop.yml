@@ -1,0 +1,32 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - '**/sandbox/**/*'
+    - '**/db/schema.rb'
+
+Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+  Exclude:
+    - config/application.rb
+
+Metrics/LineLength:
+  Max: 120
+
+Style/MixinUsage:
+  Exclude:
+    - bin/update
+    - bin/setup
+
+Metrics/AbcSize:
+  Max: 20
+
+MethodLength:
+  Max: 16
+
+BlockLength:
+  Exclude:
+    - '**/spec/**/*'
+

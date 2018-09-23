@@ -1,0 +1,14 @@
+.CurrencyRate {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.CurrencyRate-value {
+  text-align: center;
+}
+
+.CurrencyRate-timestamp {
+  margin-left: 5px;
+}

@@ -1,0 +1,28 @@
+.App-layout {
+  height: 100%;
+}
+
+.App-menu {
+  line-height: 64px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  display: block;
+  height: 40px;
+  float: left;
+  margin: 12px 24px 12px 0;
+}
+
+.App-content {
+  background: #fff;
+  margin: 50px;
+  overflow: auto;
+  padding: 24px;
+  height: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
